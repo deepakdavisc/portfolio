@@ -1,38 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
+  color: #fff;
+}
+h1 {
+  font-size: 260%;
+  font-weight: 900;
+  padding: 5rem 0 1rem 0;
+}
+
+.App .contact {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.App .contact a div {
+  width: 100%;
+  height: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .contact a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  margin: 0 15px;
+}
+.App .contact a.email div {
+  background-image: url("./images/email.svg");
+}
+.App .contact a.github div {
+  background-image: url("./images//github.svg");
+}
+.App .contact a.linkedin div {
+  background-image: url("./images/linkedin.svg");
 }

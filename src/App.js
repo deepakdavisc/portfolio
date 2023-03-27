@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <h1 style={{ fontWeight: "900" }}>Deepak Davis C</h1>
+      <div class="contact">
+        <a class="email" title="Email" href="mailto:deepakdavisc@gmail.com">
+          <div></div>
         </a>
-      </header>
+        <a
+          class="github"
+          title="GitHub"
+          href="https://github.com/deepakdavisc"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div></div>
+        </a>
+        <a
+          class="linkedin"
+          title="LinkedIn"
+          href="https://www.linkedin.com/in/deepak-davis-35176a45/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div></div>
+        </a>
+      </div>
     </div>
   );
 }
